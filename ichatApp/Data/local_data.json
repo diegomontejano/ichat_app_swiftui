@@ -1,0 +1,29 @@
+[
+    {
+        "userID":"test1",
+        "name":"Diego",
+        "email":"diego@icloud.com",
+        "photoURL":""
+        
+    },
+    {
+        "userID":"test2",
+        "name":"Joe",
+        "email":"joe@icloud.com",
+        "photoURL":""
+        
+    },
+    {
+        "userID":"test3",
+        "name":"Jessica",
+        "email":"jessica@icloud.com",
+        "photoURL":""
+        
+    },
+    {
+        "userID":"test4",
+        "name":"Dave",
+        "email":"dave@icloud.com",
+        "photoURL":""
+    },
+]

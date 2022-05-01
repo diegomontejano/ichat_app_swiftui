@@ -1,0 +1,6 @@
+framework module Pods_ichatApp {
+  umbrella header "Pods-ichatApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

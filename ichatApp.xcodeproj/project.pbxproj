@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682EFD165FB939700A1BAC0A /* Pods_ichatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A98E4A9A4EB92E1CE2C509 /* Pods_ichatApp.framework */; };
+		790AAEA7281AF30C00978698 /* messages_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AAEA6281AF30C00978698 /* messages_view.swift */; };
+		790B29E92819F761009897E6 /* circle_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790B29E82819F761009897E6 /* circle_image.swift */; };
+		791A1BFA281A2DB20044064B /* custom_messagesbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A1BF9281A2DB20044064B /* custom_messagesbar.swift */; };
+		792539132818A76A0080FA47 /* local_data_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792539122818A76A0080FA47 /* local_data_controller.swift */; };
+		7936B0B02814A3680025A374 /* local_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7936B0AF2814A3680025A374 /* local_data.json */; };
+		79630078281B18040004CF65 /* gradient_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79630077281B18040004CF65 /* gradient_background.swift */; };
+		7965FB2A28132AED002D2B1A /* ichatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB2928132AED002D2B1A /* ichatAppApp.swift */; };
+		7965FB2E28132AF2002D2B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7965FB2D28132AF2002D2B1A /* Assets.xcassets */; };
+		7965FB3128132AF2002D2B1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7965FB3028132AF2002D2B1A /* Preview Assets.xcassets */; };
+		7965FB4028132D2A002D2B1A /* main_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB3F28132D2A002D2B1A /* main_view.swift */; };
+		7965FB4628132D31002D2B1A /* settings_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4128132D31002D2B1A /* settings_view.swift */; };
+		7965FB4828132D31002D2B1A /* chats_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4328132D31002D2B1A /* chats_view.swift */; };
+		7965FB4928132D31002D2B1A /* profile_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4428132D31002D2B1A /* profile_view.swift */; };
+		7965FB4A28132D31002D2B1A /* friends_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4528132D31002D2B1A /* friends_view.swift */; };
+		7965FB4E28132D43002D2B1A /* message_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4B28132D42002D2B1A /* message_model.swift */; };
+		7965FB4F28132D43002D2B1A /* user_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4C28132D42002D2B1A /* user_model.swift */; };
+		7965FB5028132D43002D2B1A /* chat_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB4D28132D42002D2B1A /* chat_model.swift */; };
+		7965FB5428132D59002D2B1A /* app_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965FB5328132D59002D2B1A /* app_controller.swift */; };
+		79BC4274281B4722007CD2C3 /* custom_appbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC4273281B4722007CD2C3 /* custom_appbar.swift */; };
+		79CF7C01281C89AC00E8F202 /* custom_tabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CF7C00281C89AC00E8F202 /* custom_tabview.swift */; };
+		79E940DE2819DE52008620DD /* custom_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E940DD2819DE52008620DD /* custom_colors.swift */; };
+		79EFE185281331630082F6D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79EFE184281331620082F6D5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64A98E4A9A4EB92E1CE2C509 /* Pods_ichatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ichatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790AAEA6281AF30C00978698 /* messages_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messages_view.swift; sourceTree = "<group>"; };
+		790B29E82819F761009897E6 /* circle_image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circle_image.swift; sourceTree = "<group>"; };
+		791A1BF9281A2DB20044064B /* custom_messagesbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_messagesbar.swift; sourceTree = "<group>"; };
+		792539122818A76A0080FA47 /* local_data_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = local_data_controller.swift; sourceTree = "<group>"; };
+		7936B0AF2814A3680025A374 /* local_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = local_data.json; sourceTree = "<group>"; };
+		79630077281B18040004CF65 /* gradient_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradient_background.swift; sourceTree = "<group>"; };
+		7965FB2628132AED002D2B1A /* ichatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ichatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7965FB2928132AED002D2B1A /* ichatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ichatAppApp.swift; sourceTree = "<group>"; };
+		7965FB2D28132AF2002D2B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7965FB3028132AF2002D2B1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7965FB3F28132D2A002D2B1A /* main_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main_view.swift; sourceTree = "<group>"; };
+		7965FB4128132D31002D2B1A /* settings_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settings_view.swift; sourceTree = "<group>"; };
+		7965FB4328132D31002D2B1A /* chats_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chats_view.swift; sourceTree = "<group>"; };
+		7965FB4428132D31002D2B1A /* profile_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profile_view.swift; sourceTree = "<group>"; };
+		7965FB4528132D31002D2B1A /* friends_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friends_view.swift; sourceTree = "<group>"; };
+		7965FB4B28132D42002D2B1A /* message_model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = message_model.swift; sourceTree = "<group>"; };
+		7965FB4C28132D42002D2B1A /* user_model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user_model.swift; sourceTree = "<group>"; };
+		7965FB4D28132D42002D2B1A /* chat_model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chat_model.swift; sourceTree = "<group>"; };
+		7965FB5328132D59002D2B1A /* app_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = app_controller.swift; sourceTree = "<group>"; };
+		79BC4273281B4722007CD2C3 /* custom_appbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_appbar.swift; sourceTree = "<group>"; };
+		79CF7C00281C89AC00E8F202 /* custom_tabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_tabview.swift; sourceTree = "<group>"; };
+		79E940DD2819DE52008620DD /* custom_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_colors.swift; sourceTree = "<group>"; };
+		79EFE184281331620082F6D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8B1E76FF7293F027CAB6435 /* Pods-ichatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ichatApp.debug.xcconfig"; path = "Target Support Files/Pods-ichatApp/Pods-ichatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BB2275063265B2B812B007 /* Pods-ichatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ichatApp.release.xcconfig"; path = "Target Support Files/Pods-ichatApp/Pods-ichatApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7965FB2328132AED002D2B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682EFD165FB939700A1BAC0A /* Pods_ichatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF43701CF20471B1698D5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A98E4A9A4EB92E1CE2C509 /* Pods_ichatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7936B0B12814A36F0025A374 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7936B0AF2814A3680025A374 /* local_data.json */,
+				792539122818A76A0080FA47 /* local_data_controller.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7965FB1D28132AED002D2B1A = {
+			isa = PBXGroup;
+			children = (
+				7965FB2728132AED002D2B1A /* Products */,
+				A64E19027AE2E37213B48DF4 /* Pods */,
+				2CF43701CF20471B1698D5A7 /* Frameworks */,
+				7965FB2828132AED002D2B1A /* ichatApp */,
+			);
+			sourceTree = "<group>";
+		};
+		7965FB2728132AED002D2B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB2628132AED002D2B1A /* ichatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7965FB2828132AED002D2B1A /* ichatApp */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB2F28132AF2002D2B1A /* Preview Content */,
+				7965FB2D28132AF2002D2B1A /* Assets.xcassets */,
+				79EFE184281331620082F6D5 /* GoogleService-Info.plist */,
+				7965FB2928132AED002D2B1A /* ichatAppApp.swift */,
+				7936B0B12814A36F0025A374 /* Data */,
+				7965FB5728132DD7002D2B1A /* Models */,
+				7965FB5828132DE0002D2B1A /* ViewsModels */,
+				7965FB5528132DB6002D2B1A /* Views */,
+				7965FB5628132DCF002D2B1A /* Elements */,
+			);
+			path = ichatApp;
+			sourceTree = "<group>";
+		};
+		7965FB2F28132AF2002D2B1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB3028132AF2002D2B1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7965FB5528132DB6002D2B1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB3F28132D2A002D2B1A /* main_view.swift */,
+				7965FB4428132D31002D2B1A /* profile_view.swift */,
+				7965FB4528132D31002D2B1A /* friends_view.swift */,
+				790AAEA6281AF30C00978698 /* messages_view.swift */,
+				7965FB4328132D31002D2B1A /* chats_view.swift */,
+				7965FB4128132D31002D2B1A /* settings_view.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7965FB5628132DCF002D2B1A /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				79BC4273281B4722007CD2C3 /* custom_appbar.swift */,
+				791A1BF9281A2DB20044064B /* custom_messagesbar.swift */,
+				79CF7C00281C89AC00E8F202 /* custom_tabview.swift */,
+				79E940DD2819DE52008620DD /* custom_colors.swift */,
+				79630077281B18040004CF65 /* gradient_background.swift */,
+				790B29E82819F761009897E6 /* circle_image.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		7965FB5728132DD7002D2B1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB4D28132D42002D2B1A /* chat_model.swift */,
+				7965FB4B28132D42002D2B1A /* message_model.swift */,
+				7965FB4C28132D42002D2B1A /* user_model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7965FB5828132DE0002D2B1A /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+				7965FB5328132D59002D2B1A /* app_controller.swift */,
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
+		A64E19027AE2E37213B48DF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8B1E76FF7293F027CAB6435 /* Pods-ichatApp.debug.xcconfig */,
+				D3BB2275063265B2B812B007 /* Pods-ichatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7965FB2528132AED002D2B1A /* ichatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7965FB3428132AF2002D2B1A /* Build configuration list for PBXNativeTarget "ichatApp" */;
+			buildPhases = (
+				C6A52BC90EFB71B355FCE690 /* [CP] Check Pods Manifest.lock */,
+				7965FB2228132AED002D2B1A /* Sources */,
+				7965FB2328132AED002D2B1A /* Frameworks */,
+				7965FB2428132AED002D2B1A /* Resources */,
+				BA0012C17413463FDB9A46C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ichatApp;
+			productName = ichatApp;
+			productReference = 7965FB2628132AED002D2B1A /* ichatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7965FB1E28132AED002D2B1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7965FB2528132AED002D2B1A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7965FB2128132AED002D2B1A /* Build configuration list for PBXProject "ichatApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7965FB1D28132AED002D2B1A;
+			productRefGroup = 7965FB2728132AED002D2B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7965FB2528132AED002D2B1A /* ichatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7965FB2428132AED002D2B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7965FB3128132AF2002D2B1A /* Preview Assets.xcassets in Resources */,
+				7965FB2E28132AF2002D2B1A /* Assets.xcassets in Resources */,
+				79EFE185281331630082F6D5 /* GoogleService-Info.plist in Resources */,
+				7936B0B02814A3680025A374 /* local_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA0012C17413463FDB9A46C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ichatApp/Pods-ichatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ichatApp/Pods-ichatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ichatApp/Pods-ichatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A52BC90EFB71B355FCE690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ichatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7965FB2228132AED002D2B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7965FB4928132D31002D2B1A /* profile_view.swift in Sources */,
+				7965FB4828132D31002D2B1A /* chats_view.swift in Sources */,
+				7965FB5428132D59002D2B1A /* app_controller.swift in Sources */,
+				7965FB2A28132AED002D2B1A /* ichatAppApp.swift in Sources */,
+				792539132818A76A0080FA47 /* local_data_controller.swift in Sources */,
+				79CF7C01281C89AC00E8F202 /* custom_tabview.swift in Sources */,
+				79E940DE2819DE52008620DD /* custom_colors.swift in Sources */,
+				790AAEA7281AF30C00978698 /* messages_view.swift in Sources */,
+				7965FB4E28132D43002D2B1A /* message_model.swift in Sources */,
+				79BC4274281B4722007CD2C3 /* custom_appbar.swift in Sources */,
+				791A1BFA281A2DB20044064B /* custom_messagesbar.swift in Sources */,
+				790B29E92819F761009897E6 /* circle_image.swift in Sources */,
+				7965FB5028132D43002D2B1A /* chat_model.swift in Sources */,
+				7965FB4A28132D31002D2B1A /* friends_view.swift in Sources */,
+				79630078281B18040004CF65 /* gradient_background.swift in Sources */,
+				7965FB4028132D2A002D2B1A /* main_view.swift in Sources */,
+				7965FB4F28132D43002D2B1A /* user_model.swift in Sources */,
+				7965FB4628132D31002D2B1A /* settings_view.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7965FB3228132AF2002D2B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7965FB3328132AF2002D2B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7965FB3528132AF2002D2B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B1E76FF7293F027CAB6435 /* Pods-ichatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ichatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 73WHW284SL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegomontejano.ichatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7965FB3628132AF2002D2B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BB2275063265B2B812B007 /* Pods-ichatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ichatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 73WHW284SL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegomontejano.ichatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7965FB2128132AED002D2B1A /* Build configuration list for PBXProject "ichatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7965FB3228132AF2002D2B1A /* Debug */,
+				7965FB3328132AF2002D2B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7965FB3428132AF2002D2B1A /* Build configuration list for PBXNativeTarget "ichatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7965FB3528132AF2002D2B1A /* Debug */,
+				7965FB3628132AF2002D2B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7965FB1E28132AED002D2B1A /* Project object */;
+}
