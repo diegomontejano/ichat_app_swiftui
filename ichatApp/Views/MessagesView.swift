@@ -16,6 +16,7 @@ struct MessagesView: View {
                 Text(testEmail)
 //                Text(userModel.name)
 //                Text(userModel.email)
+                Spacer()
             }
         }
         .ignoresSafeArea()

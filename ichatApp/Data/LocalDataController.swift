@@ -13,7 +13,7 @@
 //
 //    func getUserModelListFromLocalJsonFile(){
 //        // path to the JSON file in the app folders
-//        let filePath = Bundle.main.path(forResource: "local_data", ofType: ".json")
+//        let filePath = Bundle.main.path(forResource: "LocalData", ofType: ".json")
 //
 //        if filePath != nil{
 //            // get jsonURL

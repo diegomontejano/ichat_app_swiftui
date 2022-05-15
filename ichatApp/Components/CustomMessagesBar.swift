@@ -31,5 +31,6 @@ struct CustomMessagesBar_Previews: PreviewProvider {
             CustomMessagesBar(title: "Title", image: "")
                 .previewDevice("iPhone 12")
         }
+        .previewInterfaceOrientation(.portrait)
     }
 }
