@@ -1,6 +1,6 @@
 # iChat App (demo)
 
-My original app for chat messages with a minimalist design. Technologies used:
+My original app for chat messages with a minimalist design. Technologies and knowledge used:
 * SwiftUI,
 * CocoaPods,
 * UX/UI Design,
