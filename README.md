@@ -14,5 +14,3 @@ My original app for chat messages with a minimalist design. Technologies and kno
 * Cached Network Image.
 
 Full App Presentation: https://www.youtube.com/watch?v=a3xuMWXf_Ss
- 
- 
